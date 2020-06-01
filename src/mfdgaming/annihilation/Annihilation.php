@@ -31,7 +31,4 @@ class Annihilation extends PluginBase {
 		}
 		unset($command);
 	}
-
-		
-
 }
