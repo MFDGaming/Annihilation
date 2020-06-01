@@ -9,6 +9,4 @@ class EventListener extends Listener {
 		parent::__construct($main);
 		$this->plugin = $main;
 	}
-  
-
 }
