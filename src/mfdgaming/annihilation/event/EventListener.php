@@ -2,6 +2,7 @@
 
 namespace mfdgaming\annihilation\event;
 
+use mfdgaming\annihilation\Annihilation as Main;
 use pocketmine\event\Listener;
 
 class EventListener extends Listener {
