@@ -1,0 +1,6 @@
+name: Annihilation
+Description: none
+version: 0.0.1
+author: MFDGaming and NTT
+api: [3.0.0, 4.0.0]
+main: mfdgaming\annihilation\Annihilation
