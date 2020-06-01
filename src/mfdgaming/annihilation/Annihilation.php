@@ -19,9 +19,19 @@ class Annihilation extends PluginBase {
 	}
 	
 	public function eventsLoader($event) {
-		foreach ($event) {
+		foreach($event) {
 			$this->getServer()->getPluginManager()->registerEvents($event, $this);
 		}
+		unset($event);
 	}
+	
+	public function commandsLoader($command) {
+		foreach($command) {
+			$this->getServer()->getCommandMap()->register("Command", $command);
+		}
+		unset($command);
+	}
+
+		
 
 }
